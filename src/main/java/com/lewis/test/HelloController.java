@@ -11,6 +11,6 @@ public class HelloController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
     public String hello() {
-        return "Hello, Spring MVC   !";
+        return "Hello, Spring MVC!";
     }
 }
