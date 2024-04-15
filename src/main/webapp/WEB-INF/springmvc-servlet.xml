@@ -11,6 +11,6 @@
            https://www.springframework.org/schema/context/spring-context.xsd">
 
 	<mvc:annotation-driven />
-	<context:component-scan	base-package="com.lewis.test" /> <!-- 將這裡的包名替換為你的包名 -->
+	<context:component-scan	base-package="com.lewis" /> 
 
 </beans>
